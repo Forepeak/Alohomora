@@ -19,7 +19,7 @@ clock = pygame.time.Clock()
 # Create image
 ##img0 = pygame.Surface((250 , 50))
 ##img0.fill(GREEN)
-img0 = pygame.image.load('assets/circle.png')
+img0 = pygame.image.load('circle.png')
 wim = img0.get_width()
 him = img0.get_height()
 img0 = pygame.transform.scale_by(img0, WIDTH/wim,)
